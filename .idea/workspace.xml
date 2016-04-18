@@ -34,18 +34,8 @@
       <file leaf-file-name="orderCenter.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/orderCenter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.5161295">
-              <caret line="12" column="42" selection-start-line="0" selection-start-column="0" selection-end-line="242" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="orderCenter2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/orderCenter2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.3225806">
-              <caret line="6" column="71" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
+            <state vertical-scroll-proportion="-12.064516">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="22" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -65,27 +55,37 @@
         <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="877" column="1" selection-start-line="877" selection-start-column="1" selection-end-line="877" selection-end-column="1" />
+              <caret line="646" column="4" selection-start-line="646" selection-start-column="4" selection-end-line="646" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index2.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/index2.css">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9388039">
-              <caret line="961" column="1" selection-start-line="961" selection-start-column="1" selection-end-line="961" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.4985465">
+              <caret line="122" column="29" selection-start-line="122" selection-start-column="29" selection-end-line="122" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="orderDetial.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/orderDetial.html">
+      <file leaf-file-name="orderDetial1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/orderDetial1.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.7096774">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index2.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/index2.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1064" column="25" selection-start-line="1064" selection-start-column="25" selection-end-line="1064" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -116,7 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/register.html" />
         <option value="$PROJECT_DIR$/dd.html" />
         <option value="$PROJECT_DIR$/js/jss.js" />
         <option value="$PROJECT_DIR$/orderDetial2.css" />
@@ -157,16 +156,17 @@
         <option value="$PROJECT_DIR$/退换货列表2.html" />
         <option value="$PROJECT_DIR$/申请售后服务2.html" />
         <option value="$PROJECT_DIR$/申请售后服务下一步2.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/申请售后服务.html" />
         <option value="$PROJECT_DIR$/申请售后服务下一步.html" />
         <option value="$PROJECT_DIR$/退换货列表.html" />
-        <option value="$PROJECT_DIR$/orderDetial.html" />
-        <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/订单详情.html" />
         <option value="$PROJECT_DIR$/orderCenter.html" />
         <option value="$PROJECT_DIR$/orderCenter2.html" />
+        <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/orderDetial.html" />
+        <option value="$PROJECT_DIR$/orderDetial1.html" />
         <option value="$PROJECT_DIR$/css/index2.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -674,22 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56831396">
-          <caret line="116" column="22" selection-start-line="116" selection-start-column="22" selection-end-line="116" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="877" column="1" selection-start-line="877" selection-start-column="1" selection-end-line="877" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/订单详情.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -714,34 +698,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/orderDetial.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7096774">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/orderCenter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5161295">
-          <caret line="12" column="42" selection-start-line="0" selection-start-column="0" selection-end-line="242" selection-end-column="7" />
+        <state vertical-scroll-proportion="-12.064516">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="22" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/orderCenter2.html">
+    <entry file="file://$PROJECT_DIR$/orderDetial.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.3225806">
-          <caret line="6" column="71" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
+        <state vertical-scroll-proportion="-9.935484">
+          <caret line="14" column="73" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orderDetial1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7096774">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="646" column="4" selection-start-line="646" selection-start-column="4" selection-end-line="646" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9388039">
-          <caret line="961" column="1" selection-start-line="961" selection-start-column="1" selection-end-line="961" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1064" column="25" selection-start-line="1064" selection-start-column="25" selection-end-line="1064" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4985465">
+          <caret line="122" column="29" selection-start-line="122" selection-start-column="29" selection-end-line="122" selection-end-column="29" />
           <folding />
         </state>
       </provider>
