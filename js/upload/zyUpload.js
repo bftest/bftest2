@@ -56,22 +56,23 @@
 					html += '	<div class="upload_box">';
 					html += '		<div class="upload_main">';
 					html += '			<div class="upload_choose">';
-	            	html += '				<div class="convent_choice">';
-	            	html += '					<div class="andArea">';
-	            	html += '						<div class="filePicker">点击选择文件</div>';
-	            	html += '						<input id="fileImage" type="file" size="30" name="fileselect[]" '+multiple+'>';
-	            	html += '					</div>';
-	            	html += '				</div>';
-					html += '				<span id="fileDragArea" class="upload_drag_area">或者将文件拖到此处</span>';
+
 					html += '			</div>';
-		            html += '			<div class="status_bar">';
-		            html += '				<div id="status_info" class="info">选中0张文件，共0B。</div>';
-		            html += '				<div class="btns">';
-		            html += '					<div class="webuploader_pick">继续选择</div>';
-		            html += '					<div class="upload_btn">开始上传</div>';
-		            html += '				</div>';
-		            html += '			</div>';
-					html += '			<div id="preview" class="upload_preview"></div>';
+					html += '			<div id="preview" class="upload_preview">' ;
+					html += '				<div class="convent_choice">';
+					html += '					<div class="andArea">';
+					html += '						<div class="filePicker">点击选择文件</div>';
+					html += '						<input id="fileImage" type="file" size="30" name="fileselect[]" '+multiple+'>';
+					html += '					</div>';
+					html += '				</div>';
+					html += '</div>';
+					html += '			<div class="status_bar">';
+					html += '				<div id="status_info" class="info">选中0张文件，共0B。</div>';
+					html += '			</div>';
+					html += '				<div class="btns">';
+					html += '					<div class="webuploader_pick">继续选择</div>';
+					html += '					<div class="upload_btn">开始上传</div>';
+					html += '				</div>';
 					html += '		</div>';
 					html += '		<div class="upload_submit">';
 					html += '			<button type="button" id="fileSubmit" class="upload_submit_btn">确认上传文件</button>';
@@ -373,13 +374,17 @@
 				// 如果快捷添加文件按钮存在
 				if($(".filePicker").length > 0){
 					// 绑定选择事件
-					$(".filePicker").bind("click", function(e){
+					var $filePicker=$(".filePicker");
+					new FastClick($filePicker[0]);
+					$(".filePicker").on("click", function(e){
 		            	$("#fileImage").click();
 		            });
 				}
 	            
 				// 绑定继续添加点击事件
-				$(".webuploader_pick").bind("click", function(e){
+				var $webuploader_pick=$(".webuploader_pick");
+				new FastClick($webuploader_pick[0]);
+				$(".webuploader_pick").on("click", function(e){
 	            	$("#fileImage").click();
 	            });
 				
