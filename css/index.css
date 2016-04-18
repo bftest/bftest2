@@ -11,6 +11,7 @@ html,body{
     background: #e73d4d;
     color: #fff;
     padding-left: 10%;
+    position: relative;
 }
 .top span{
     position: absolute;
