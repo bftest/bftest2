@@ -554,7 +554,9 @@
 }
 
 /*return*/
-/*return*/
+.content{
+    padding-bottom: 1rem;
+}
 .returnMain{
     width: 100%;
 }
@@ -622,7 +624,7 @@
     float: left;
 }
 .goodsInfo2 .goR{
-    width: 70%;
+    width: 75%;
     float: left;
     font-size: .24rem;
 }

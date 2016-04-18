@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <meta name = "viewport" content="width=device-width,initial-scale=1.0,user-scalable = no">
+    <meta name = "viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1,user-scalable = no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="format-detection" content="email=no">
@@ -10,18 +10,22 @@
     <meta name="format-detection" content="address=no">
     <title>服务单详情</title>
     <link rel="stylesheet" href="css/reset.css" type="text/css"/>
-    <link rel="stylesheet" href="css/index.css" type="text/css"/>
-
+    <link rel="stylesheet" href="css/index2.css" type="text/css"/>
     <script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="js/fastclick.js" type='application/javascript'></script>
     <script src="js/index.js" type="text/javascript"></script>
+    <script>
+        $(function () {
+            FastClick.attach(document.body);
+        });
+    </script>
 </head>
 <body>
 <!--top-->
-<section class="top">
+<section class="return comTop">
     <span></span>服务单详情
 </section>
 <!--top end-->
-<!--content-->
 <section class="content" style="padding-bottom: 0">
     <!--main-->
     <section class="returnMain">
@@ -88,5 +92,6 @@
     <!--main end-->
 </section>
 <!--content end-->
+
 </body>
 </html>
