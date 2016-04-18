@@ -808,6 +808,7 @@
 .customer p{
     font-size: .28rem;
     color: #666;
+    padding-left: .1rem;
 }
 .customerInfo{
     margin: .15rem;

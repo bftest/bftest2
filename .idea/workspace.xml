@@ -21,41 +21,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.612904">
-              <caret line="116" column="22" selection-start-line="116" selection-start-column="22" selection-end-line="116" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="877" column="1" selection-start-line="877" selection-start-column="1" selection-end-line="877" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="申请售后服务.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/申请售后服务.html">
+      <file leaf-file-name="index2.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/index2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.838709">
-              <caret line="100" column="26" selection-start-line="100" selection-start-column="26" selection-end-line="100" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="申请售后服务下一步.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/申请售后服务下一步.html">
+      <file leaf-file-name="orderDetial.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/orderDetial.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.903225">
-              <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="退换货列表.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/退换货列表.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.559593">
-              <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.031976745">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -89,7 +79,6 @@
         <option value="$PROJECT_DIR$/js/address.js" />
         <option value="$PROJECT_DIR$/booking2.html" />
         <option value="$PROJECT_DIR$/orderDetial2.html" />
-        <option value="$PROJECT_DIR$/orderDetial.html" />
         <option value="$PROJECT_DIR$/addAddress.html" />
         <option value="$PROJECT_DIR$/js/Worder.js" />
         <option value="$PROJECT_DIR$/css/select2.css" />
@@ -116,16 +105,17 @@
         <option value="$PROJECT_DIR$/js/upload/demo.js" />
         <option value="$PROJECT_DIR$/css/zyUpload.css" />
         <option value="$PROJECT_DIR$/商品详情页.html" />
-        <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/服务单详情2.html" />
         <option value="$PROJECT_DIR$/退换货列表2.html" />
         <option value="$PROJECT_DIR$/申请售后服务2.html" />
-        <option value="$PROJECT_DIR$/css/index2.css" />
         <option value="$PROJECT_DIR$/申请售后服务下一步2.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/申请售后服务.html" />
         <option value="$PROJECT_DIR$/申请售后服务下一步.html" />
         <option value="$PROJECT_DIR$/退换货列表.html" />
+        <option value="$PROJECT_DIR$/css/index2.css" />
+        <option value="$PROJECT_DIR$/orderDetial.html" />
+        <option value="$PROJECT_DIR$/css/index.css" />
       </list>
     </option>
   </component>
@@ -616,34 +606,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/orderDetial.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="113" column="43" selection-start-line="113" selection-start-column="34" selection-end-line="113" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8164117">
-          <caret line="845" column="0" selection-start-line="845" selection-start-column="0" selection-end-line="845" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/服务单详情.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5843023">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="89" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/index2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4798331">
-          <caret line="559" column="12" selection-start-line="559" selection-start-column="12" selection-end-line="559" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -656,34 +622,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/退换货列表.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.612904">
-          <caret line="116" column="22" selection-start-line="116" selection-start-column="22" selection-end-line="116" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/申请售后服务.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.838709">
-          <caret line="100" column="26" selection-start-line="100" selection-start-column="26" selection-end-line="100" selection-end-column="26" />
+        <state vertical-scroll-proportion="-12.419354">
+          <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/申请售后服务下一步.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.903225">
-          <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
+        <state vertical-scroll-proportion="-12.645162">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="27" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/退换货列表.html">
+    <entry file="file://$PROJECT_DIR$/css/index2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.559593">
-          <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/申请售后服务.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75872093">
+          <caret line="100" column="26" selection-start-line="100" selection-start-column="26" selection-end-line="100" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56831396">
+          <caret line="116" column="22" selection-start-line="116" selection-start-column="22" selection-end-line="116" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="877" column="1" selection-start-line="877" selection-start-column="1" selection-end-line="877" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orderDetial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.031976745">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
           <folding />
         </state>
       </provider>
