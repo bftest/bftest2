@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1,user-scalable = no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="email=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>商品详情页</title>
+    <link rel="stylesheet" href="css/reset.css" type="text/css"/>
+    <link rel="stylesheet" href="css/index2.css" type="text/css"/>
+    <link rel="stylesheet" href="css/idangerous.swiper.css" type="text/css"/>
+    <script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="js/fastclick.js" type='application/javascript'></script>
+    <script src="js/index.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/iscroll-lite.js"></script>
+    <script>
+        $(function () {
+            FastClick.attach(document.body);
+        });
+        window.onload=function(){
+            $(".goodsChangeImg .swiper-slide img").each(function(){
+                var $marT=-$(this).height()/2+"px";
+                $(this).css({"position":"relative","top":"50%","margin-top":$marT});
+            });
+        };
+    </script>
+    <script>
+            var myScroll;
+            function loaded() {
+                myScroll = new iScroll('wrapper');
+            }
+            document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+            document.addEventListener('DOMContentLoaded', loaded, false);
+
+    </script>
+    <style>
+        body{
+            background: #fff;
+        }
+    </style>
+</head>
+<body>
+<!--tagLayerBox-->
+<div style="display: block" class="tagLayerBox">
+    <div class="mask"></div>
+    <div id="tagHeader"><div class="closed"><em class="close"></em></div></div>
+    <div id="wrapper">
+        <div id="scroller">
+            <div class="tagBoxC">
+                <dl class="colo">
+                    <dt>选择颜色</dt>
+                    <dd>
+                        <ul>
+                            <li class="selected">玫瑰金</li>
+                            <li>白</li>
+                            <li>黑</li>
+                            <li>银</li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>选择尺寸</dt>
+                    <dd>
+                        <ul>
+                            <li>40寸</li>
+                            <li class="selected">50寸</li>
+                            <li class="disable">55寸</li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>选择套餐</dt>
+                    <dd>
+                        <ul>
+                            <li class="disable">6个月会员</li>
+                            <li class="selected">12个月会员</li>
+                            <li>36个月会员</li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>选择数量</dt>
+                    <dd>
+                        <div class="quantity-form">
+                            <span class="decrement">－</span>
+                            <input type="text" id="buy-num" name="applyNum" value="1" class="text text01">
+                            <span class="increment">＋</span>
+                        </div>
+                    </dd>
+                </dl>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="tagFooter"><div class="btnSure" id="btnSure">确定</div></div>
+</div>
+<!--tagLayerBox end-->
+</body>
+</html>

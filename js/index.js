@@ -47,7 +47,7 @@ $(function(){
             new FastClick($decrement[0]);
             $(this).on("click",function(){
                 var $num=parseInt($("#buy-num").val());
-                $num<=0 ? $num=0 : $num--;
+                $num<=1 ? $num=1 : $num--;
                 $("#buy-num").val($num);
             });
         })
@@ -102,7 +102,14 @@ $(function(){
             $("#returnTop").hide();
         }
     })
-
+//
+    var $sLI=$(".serviceType li");
+    $sLI.each(function(index){
+        new FastClick($sLI[index]);
+        $(this).on("click",function(){
+            $(this).addClass("on").siblings().removeClass("on");
+        })
+    });
 
 
 
