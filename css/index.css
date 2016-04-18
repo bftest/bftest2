@@ -32,10 +32,7 @@ html,body{
     top:0.35rem;
 }
 .content{
-  padding-bottom: 1.3rem;
     padding-bottom: 1.3rem;
-    position: relative;
-    z-index: 1;
 }
 .main{
     width: 90%;
