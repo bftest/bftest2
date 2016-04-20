@@ -162,7 +162,7 @@ $(function(){
                 dis=Math.abs(dis);
                 var $num=parseInt(dis/46);
                 var $span=$(this).children();
-                for(var i=0;i<$num+1;i++){
+                for(var i=index+1;i<5;i++){
                     $span[i].className="";
                 }
             }
