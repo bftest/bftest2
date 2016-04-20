@@ -115,12 +115,12 @@ $(function(){
         })
     });
 //
-   var $scoreLI=$(".scoreAssessList li .dd");
+  var $scoreLI=$(".scoreAssessList li .dd");
     $scoreLI.each(function(k){
         var $ddSpan=$(this).children("span");
         $ddSpan.each(function(index){
             new FastClick($ddSpan[index]);
-            $(this).on("touchstart",function(){
+            $(this).on("click",function(){
                 if(!$(this).hasClass("on")){
                     for(var i=0;i<index+1;i++){
                         $ddSpan[i].className="on";
@@ -133,7 +133,7 @@ $(function(){
             })
         });
     });
-   var $scoreLI=$(".scoreAssessList li .dd");
+   /*var $scoreLI=$(".scoreAssessList li .dd");
     $scoreLI.each(function(k){
         new FastClick($scoreLI[k]);
         $(this).on("touchstart", function (event) {
@@ -177,7 +177,7 @@ $(function(){
                 }
             }
         });
-    });
+    });*/
 
 
 });
