@@ -135,20 +135,16 @@ $(function(){
     });
    var $scoreLI=$(".scoreAssessList li .dd");
     $scoreLI.each(function(k){
-        var touchEvents = {
-            touchstart: "touchstart",
-            touchmove: "touchmove",
-            touchend: "touchend"
-        };
-        $(this).on(touchEvents.touchstart, function (event) {
+        new FastClick($scoreLI[k]);
+        $(this).on("touchstart", function (event) {
             event.preventDefault();
             this["strX"] = event.originalEvent.targetTouches[0].clientX;
         });
-        $(this).on(touchEvents.touchmove, function (event) {
+        $(this).on("touchmove", function (event) {
             event.preventDefault();
             this["strX2"]= event.originalEvent.targetTouches[0].clientX;
         });
-        $(this).on(touchEvents.touchend, function (event) {
+        $(this).on("touchend", function (event) {
             event.preventDefault();
             var dis=this["strX2"]-this["strX"];
             console.log(dis);
