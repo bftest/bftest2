@@ -115,14 +115,26 @@ $(function(){
         })
     });
 //
-    var $ddSpan=$(".scoreAssessList .dd span");
-    $ddSpan.each(function(index){
-        new FastClick($ddSpan[index]);
-        $(this).on("click",function(){
-            $(this).toggleClass("on");
-            console.log(1)
-        })
+    var $scoreLI=$(".scoreAssessList li .dd");
+    $scoreLI.each(function(k){
+        var $ddSpan=$(this).children("span");
+        $ddSpan.each(function(index){
+            new FastClick($ddSpan[index]);
+            $(this).on("click",function(){
+                if(!$(this).hasClass("on")){
+                    for(var i=0;i<index+1;i++){
+                        $ddSpan[i].className="on";
+                    }
+                }else{
+                    for(var i=index;i<5;i++){
+                        $ddSpan[i].className="";
+                    }
+                };
+            })
+        });
     });
+
+
 
 
 
