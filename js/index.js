@@ -155,15 +155,29 @@ $(function(){
             if(dis>0){
                 var $num=parseInt(dis/46);
                 var $span=$(this).children();
-                for(var i=0;i<$num+1;i++){
-                    $span[i].className="on";
+                if($num<=5){
+                    for(var i=0;i<$num+1;i++){
+                        $span[i].className="on";
+                    }
+                }else{
+                    for(var i=0;i<5;i++){
+                        $span[i].className="on";
+                    }
                 }
             }else{
                 dis=Math.abs(dis);
+                console.log(dis);
                 var $num=parseInt(dis/46);
                 var $span=$(this).children();
-                for(var i=index+1;i<5;i++){
-                    $span[i].className="";
+                var $length=$("span.on").length;
+                if($num>5){
+                    for(var i=0;i<5;i++){
+                        $span[i].className="";
+                    }
+                }else{
+                    for(var i=$num+1;i<5;i++){
+                        $span[i].className="";
+                    }
                 }
             }
         });
