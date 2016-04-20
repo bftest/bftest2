@@ -120,13 +120,13 @@ $(function(){
         var $ddSpan=$(this).children("span");
         $ddSpan.each(function(index){
             new FastClick($ddSpan[index]);
-            $(this).on("click",function(){
+            $(this).on("touchstart",function(){
                 if(!$(this).hasClass("on")){
                     for(var i=0;i<index+1;i++){
                         $ddSpan[i].className="on";
                     }
                 }else{
-                    for(var i=index+1;i<5;i++){
+                    for(var i=index;i<5;i++){
                         $ddSpan[i].className="";
                     }
                 }
@@ -152,7 +152,7 @@ $(function(){
                 var $num=parseInt(dis/46);
                 var $span=$(this).children();
                 if($num<=5){
-                    for(var i=0;i<$num+1;i++){
+                    for(var i=0;i<$num;i++){
                         $span[i].className="on";
                     }
                 }else{
@@ -171,7 +171,7 @@ $(function(){
                         $span[i].className="";
                     }
                 }else{
-                    for(var i=$num+1;i<5;i++){
+                    for(var i=$num;i<5;i++){
                         $span[i].className="";
                     }
                 }
