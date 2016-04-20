@@ -13,8 +13,12 @@ $(function(){
         $(this).parent().siblings().children("span").hide();
     });
     ///
-    $(".checkChange").on("click",function(){
-        $(this).hasClass("checked") ? $(this).removeClass("checked").siblings("input").removeAttr("checked","false") :  $(this).addClass("checked").siblings("input").attr("checked","checked");
+    var $checkChange=$(".checkChange");
+    $checkChange.each(function(){
+        new FastClick($checkChange[0]);
+        $(this).on("click",function(){
+            $(this).hasClass("checked") ? $(this).removeClass("checked").siblings("input").removeAttr("checked","false") :  $(this).addClass("checked").siblings("input").attr("checked","checked");
+        });
     });
     //
     var $carTSpan=$(".carT span");
@@ -110,7 +114,15 @@ $(function(){
             $(this).addClass("on").siblings().removeClass("on");
         })
     });
-
+//
+    var $ddSpan=$(".scoreAssessList .dd span");
+    $ddSpan.each(function(index){
+        new FastClick($ddSpan[index]);
+        $(this).on("click",function(){
+            $(this).toggleClass("on");
+            console.log(1)
+        })
+    });
 
 
 

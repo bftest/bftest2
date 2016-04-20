@@ -7,21 +7,21 @@
 }
 .return span {
     position: absolute;
-    left: 0.6rem;
-    top: 0.01rem;
+    left: .6rem;
+    top: .07rem;
     display: block;
 }
 .return span:before {
     content: "";
-    width: 0.22rem;
-    height: 0.22rem;
+    width: .22rem;
+    height: .22rem;
     border-top: 2px solid #999;
     border-left: 2px solid #999;
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
     position: absolute;
-    left: -0.2rem;
-    top: 0.3rem;
+    left: -.2rem;
+    top: .3rem;
 }
 .comTop{
     background-color: #e73d4d;
@@ -45,6 +45,15 @@
     background-color: #fff;
     margin-bottom: .3rem;
     margin-top: -1px;
+}
+.personalTop{
+    background-color: #eee;
+    text-align: center;
+    color: #666;
+}
+.personalTop span:before {
+    border-top: 2px solid #666;
+    border-left: 2px solid #666;
 }
 /*商品详情页样式*/
 .goodsChangeImg{
@@ -116,15 +125,15 @@
 }
 .selectedTag em:before {
     content: "";
-    width: 0.2rem;
-    height: 0.2rem;
+    width: .2rem;
+    height: .2rem;
     border-top: 2px solid #999;
     border-left: 2px solid #999;
     transform: rotate(-225deg);
     -webkit-transform: rotate(-225deg);
     position: absolute;
     right: .2rem;
-    top: -0.55rem;
+    top: -.55rem;
 }
 .comment{
     margin-bottom: .3rem;
@@ -482,19 +491,28 @@
     margin: 0 auto;
 }
 .fNav .fh{
-    background-position-y: 0rem;
+    background-position-y: 3.5rem;
 }
 
 .fNav .fc{
     background-position-y: 6.5rem;
 }
+
 .fNav .fCart{
     background-position-y: 9.5rem;
 }
 .fNav .fp{
     background-position-y: 12.5rem;
 }
-
+.fNav #fc div.on{
+    background-position-y: 3rem;
+}
+.fNav #fp div.on{
+    background-position-y: 1rem;
+}
+.fNav #fh div.on{
+    background-position-y: 0;
+}
 .fNav p{
     font-size: .18rem;
     color: #999;
@@ -555,7 +573,7 @@
 
 /*return*/
 .content{
-    padding-bottom: 1rem;
+    padding-bottom: 1.15rem;
 }
 .returnMain{
     width: 100%;
@@ -622,21 +640,19 @@
     width: 1.4rem;
     height: 1.4rem;
     float: left;
+    border: 1px solid #ccc;
+}
+.goodsInfo2 .goL img{
+    display: block;
+    max-width: 1.4rem;
+    max-height: 1.4rem;
+    margin: 0 auto;
+    vertical-align: middle;
 }
 .goodsInfo2 .goR{
     width: 75%;
     float: left;
     font-size: .24rem;
-}
-.goL .goLImg{
-    width: 1.4rem;
-    height: 1.4rem;
-    border: 1px solid #ccc;
-}
-.goL .goLImg img{
-    max-height: 100%;
-    max-width: 1.4rem;
-    max-height: 1.4rem;
 }
 .goodsInfo2 .goR h3,.service h3,.processing h3{
     color: #000;
@@ -1468,8 +1484,301 @@ h3{
     float: left;
     margin-right: .25rem;
     margin-bottom: .25rem;
+    background: #fff;
 }
 .payTop ul li:nth-child(2n){
     margin-right: 0;
 }
-
+/*personalCenter*/
+.perLogin{
+    width: 100%;
+    height: 2.8rem;
+    background-color: #e73d4d;
+}
+.perLoginM img{
+    border-radius: 100%;
+    vertical-align: middle;
+    margin-right: .3rem;
+}
+.perLoginM{
+ padding-left: .6rem;
+    margin: 0 auto;
+}
+.perLoginM span{
+    color: #fff;
+    font-size: .32rem;
+    height: 2.8rem;
+    line-height: 2.8rem;
+}
+.orderInfo{
+    background-color: #fff;
+    overflow: hidden;
+    padding: .4rem .2rem;
+    margin-bottom: .2rem;
+}
+.orderInfo .orderItem{
+    width: 30%;
+    float: left;
+    text-align: center;
+    font-size: .28rem;
+    color: #333;
+}
+.orderInfo .orderItem a{
+    display: block;
+}
+.orderInfo .orderItem em{
+    width: .41rem;
+    height: .47rem;
+    display: block;
+    background: url("../images/ico/perico.png") no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    margin: 0 auto;
+    margin-bottom: .15rem;
+}
+.orderInfo .orderItem em.totalOrder{
+    background-position: 0 0;
+    background-size: cover;
+}
+.orderInfo .orderItem em.paying{
+    width: .46rem;
+    background-position: -.49rem 0;
+    background-size: cover;
+}
+.orderInfo .orderItem em.awaiting{
+    width: .41rem;
+    background-position: -.96rem 0;
+    background-size: cover;
+}
+.fnList{
+    background-color: #fff;
+    overflow: hidden;
+    margin-bottom: .2rem;
+}
+.fnList ul li{
+    height: .94rem;
+    line-height: .94rem;
+    position: relative;
+    margin-left: .3rem;
+    font-size: .32rem;
+    color: #333;
+    border-bottom: 1px solid #dfdfdf;
+}
+.fnDirection:before{
+    content: "";
+    width: .24rem;
+    height: .24rem;
+    border-bottom:1px solid #666;
+    border-right:1px solid #666;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    position: absolute;
+    right:.3rem;
+    top: 50%;
+    margin-top: -0.12rem;
+}
+.fnList ul li:last-child{
+    border-bottom: 0;
+}
+/*classifyMain*/
+.classifyMain{
+    background-color: #fff;
+    padding: .3rem;
+    overflow: hidden;
+}
+.classifyCon{
+    margin-bottom: .3rem;
+}
+.classifyCon .clTitle{
+    font-size: .32rem;
+}
+.classifyCon ul{
+    overflow: hidden;
+}
+.classifyCon li{
+    width: 22%;
+    float: left;
+    text-align: center;
+    margin-right: 4%;
+    margin-top: .15rem;
+}
+.classifyCon li:nth-child(4n){
+    margin-right: 0;
+}
+.classifyCon li img{
+    max-width: 1.3rem;
+    max-height: 1.5rem;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+.classifyCon li p{
+    color: #666;
+    font-size: .22rem;
+    text-align: center;
+}
+/*assessList*/
+.assessList{
+    background-color: #fff;
+    margin-bottom: .2rem;
+}
+.assessList li{
+    height: 100%;
+    overflow: hidden;
+    padding:.3rem .2rem;
+    border-bottom: 1px solid #dfdfdf;
+}
+.assessList li .dt{
+    width: 1.4rem;
+    height: 1.4rem;
+    border: 1px solid #ccc;
+    text-align: center;
+    float: left;
+}
+.assessList li .dt img{
+    display: block;
+    max-width: 1.4rem;
+    max-height: 1.4rem;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+.assessList li .dd{
+    width: 70%;
+    float: left;
+    margin-left: 5%;
+}
+.assessList li .dd p.ddTitle{
+    font-size: .28rem;
+    color: #000;
+    line-height: .38rem;
+    font-weight: 600;
+}
+.ckBtn{
+    width: 1.28rem;
+    height: .48rem;
+    line-height: .48rem;
+    text-align: center;
+    font-size: .24rem;
+    color: #999;
+    display: block;
+    border: 1px solid #dfdfdf;
+    border-radius: .1rem;
+}
+.ddBot{
+    margin-top: .2rem;
+    font-size: .28rem;
+}
+.scoreAssess{
+    height: 100%;
+    overflow: hidden;
+    margin-bottom: .2rem;
+    background-color: #fff;
+    padding:.3rem .2rem;
+}
+.scoreAssessList li{
+    padding-bottom: .1rem;
+    overflow: hidden;
+}
+.scoreAssessList li .dt,.scoreAssessList li .dd{
+    width: 40%;
+    float: left;
+    height: .5rem;
+    line-height: .5rem;
+    font-size: .32rem;
+}
+.scoreAssessList li .dd{
+    width: 60%;
+}
+.scoreAssessList li .dd span{
+    width: .46rem;
+    height: .46rem;
+    display: block;
+    float: left;
+    background: url("../images/ico/star.png") no-repeat;
+    background-size: .9rem .46rem;
+    margin-right: .1rem;
+    background-position: -.465rem 0;
+}
+.scoreAssessList li .dd span.on{
+    background-position: 0 0;
+}
+.awake p,.showImg p{
+    font-size: .32rem;
+    height: .48rem;
+    line-height: .48rem;
+    margin-bottom: .1rem;
+}
+.textArea p{
+    text-align: right;
+    font-size: .24rem;
+    color: #999;
+}
+.imgUpload{
+    overflow: hidden;
+}
+.showImg p.imgInfo1{
+    font-size: .28rem;
+    color: #999;
+    overflow: hidden;
+}
+.anonymity{
+    overflow: hidden;
+    background-color: #fff;
+    padding: .3rem 0;
+}
+.checkChange {
+    width:.32rem;
+    height: .32rem;
+    display: inline-block;
+    background: url("../images/ico/checked.png") no-repeat;
+    background-position: -.33rem 0;
+    background-size: .62rem .3rem;
+    float: left;
+    cursor: pointer;
+    margin-left: -17px;
+}
+.checked {
+    background-position: 0 0;
+}
+.loginExtra input {
+    width:32px;
+    height: 32px;
+    display: inline-block;
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+    float: left;
+    position: relative;
+    z-index: -9999;
+}
+.loginExtra label {
+    float: left;
+    font-size: .32rem;
+    height: .32rem;
+    line-height: .32rem;
+    margin-left: .1rem;
+}
+.awakeContent{
+    font-size: .32rem;
+    color: #000;
+    line-height: .46rem;
+}
+.showImgList{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.showImgList li{
+    float: left;
+    width: 1.44rem;
+    height: 1.44rem;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-right: .2rem;
+}
+.showImgList li img{
+    max-height: 1.44rem;
+    max-width: 1.44rem;
+    vertical-align: middle;
+    display: block;
+}
