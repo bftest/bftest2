@@ -115,7 +115,7 @@ $(function(){
         })
     });
 //
-  /*var $scoreLI=$(".scoreAssessList li .dd");
+  var $scoreLI=$(".scoreAssessList li .dd");
     $scoreLI.each(function(k){
         var $ddSpan=$(this).children("span");
         $ddSpan.each(function(index){
@@ -132,8 +132,8 @@ $(function(){
                 }
             })
         });
-    });*/
-   var $scoreLI=$(".scoreAssessList li .dd");
+    });
+   /*var $scoreLI=$(".scoreAssessList li .dd");
     $scoreLI.each(function(k){
        // new FastClick($scoreLI[k]);
         $(this).on("touchstart", function (event) {
@@ -188,7 +188,7 @@ $(function(){
                 }
             }
         });
-    });
+    });*/
 
 
 });
