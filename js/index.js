@@ -1,6 +1,6 @@
 var winW = document.documentElement.clientWidth;
 var desW = 640;
-var proportion = desW/100;/*±ÈÀı*/
+var proportion = desW/100;/*ï¿½ï¿½ï¿½ï¿½*/
 document.documentElement.style.fontSize = winW/proportion +"px";
 if(winW>desW){
     document.documentElement.style.fontSize = "100px";
@@ -92,13 +92,13 @@ $(function(){
         });
     });
 
-//»Øµ½Ò³Ãæ¶¥²¿
+//ï¿½Øµï¿½Ò³ï¿½æ¶¥ï¿½ï¿½
     $("#returnTop").click(function(){
-        $('body,html').animate({scrollTop:0},1000); //µã»÷°´Å¥ÈÃÆä»Øµ½Ò³Ãæ¶¥²¿
+        $('body,html').animate({scrollTop:0},1000); //ï¿½ï¿½ï¿½ï¿½ï¿½Å¥ï¿½ï¿½ï¿½ï¿½Øµï¿½Ò³ï¿½æ¶¥ï¿½ï¿½
     });
     $(window).scroll(function() {
-        var $scrollTop=$(document).scrollTop(); //¹ö¶¯Ìõ¾à¶¥¶ËµÄ¾àÀë
-        var $viewHeight= $(window).height();//ä¯ÀÀÆ÷¿ÉÊÓ»¯´°¿ÚµÄ´óĞ¡
+        var $scrollTop=$(document).scrollTop(); //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½à¶¥ï¿½ËµÄ¾ï¿½ï¿½ï¿½
+        var $viewHeight= $(window).height();//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó»ï¿½ï¿½ï¿½ï¿½ÚµÄ´ï¿½Ğ¡
         var top=parseInt($scrollTop)+parseInt($viewHeight)-217;
         if($scrollTop>$viewHeight-300){
             $("#returnTop").show();
@@ -115,7 +115,7 @@ $(function(){
         })
     });
 //
-  var $scoreLI=$(".scoreAssessList li .dd");
+  /*var $scoreLI=$(".scoreAssessList li .dd");
     $scoreLI.each(function(k){
         var $ddSpan=$(this).children("span");
         $ddSpan.each(function(index){
@@ -132,17 +132,19 @@ $(function(){
                 }
             })
         });
-    });
-   /*var $scoreLI=$(".scoreAssessList li .dd");
+    });*/
+   var $scoreLI=$(".scoreAssessList li .dd");
     $scoreLI.each(function(k){
-        new FastClick($scoreLI[k]);
+       // new FastClick($scoreLI[k]);
         $(this).on("touchstart", function (event) {
             event.preventDefault();
             this["strX"] = event.originalEvent.targetTouches[0].clientX;
+            console.log(this["strX"]);
         });
         $(this).on("touchmove", function (event) {
             event.preventDefault();
             this["strX2"]= event.originalEvent.targetTouches[0].clientX;
+            console.log(this["strX2"]);
         });
         $(this).on("touchend", function (event) {
             event.preventDefault();
@@ -151,7 +153,7 @@ $(function(){
             if(dis>0){
                 var $num=parseInt(dis/46);
                 var $span=$(this).children();
-                if($num<=5){
+                if($num<5){
                     for(var i=0;i<$num;i++){
                         $span[i].className="on";
                     }
@@ -166,18 +168,27 @@ $(function(){
                 var $num=parseInt(dis/46);
                 var $span=$(this).children();
                 var $length=$("span.on").length;
+                console.log($length);
+                console.log($num);
                 if($num>5){
                     for(var i=0;i<5;i++){
                         $span[i].className="";
                     }
                 }else{
-                    for(var i=$num;i<5;i++){
-                        $span[i].className="";
+                    if($length<=$num){
+                        for(var i=0;i<$length;i++){
+                            $span[i].className="";
+                        }
+                    }else{
+                        for(var i=$length-$span-1;i<=$length-1;i++){
+                            $span[i].className="";
+                        }
                     }
+
                 }
             }
         });
-    });*/
+    });
 
 
 });
