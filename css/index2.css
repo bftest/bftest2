@@ -1782,3 +1782,153 @@ h3{
     vertical-align: middle;
     display: block;
 }
+/*第三版index*/
+.logo{
+    width: 100%;
+    height: .96rem;
+    line-height: .96rem;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: .2rem;
+}
+.logo img{
+    width: 2.6rem;
+    height: .96rem;
+    vertical-align: middle;
+}
+.choose_tasks{
+    width: 96%;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: .1rem;
+}
+.choose_tasks .wap2{
+    width: 96%;
+    border-radius: .1rem;
+}
+.wap2 .swiper-slide img{
+    width: 99.7%;
+}
+.wap2 .pagination{
+    bottom: 5px;
+}
+.main{
+    width: 96%;
+    margin: 0 auto;
+    height: 100%;
+    overflow: hidden;
+    margin-bottom: .2rem;
+}
+.oList li{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin-bottom: .2rem;
+    background-color: #fff;
+    border-radius: .1rem;
+    position: relative;
+}
+.oImg{
+    width: 100%;
+    text-align: center;
+}
+.oImg span{
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.oList li img{
+    max-height: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.oInfo{
+    height: 1rem;
+    line-height: 1rem;
+    color: #fff;
+    position: absolute;
+    width: 90%;
+    padding: 0 5%;
+    left: 0;
+    bottom: 1.175rem;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.2) 60%, rgba(119, 119, 119, .1) 90%, rgba(173,173,173,0) 100%);
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    font-size: .32rem;
+}
+.oInfo em{
+    width: .34rem;
+    height: .31rem;
+    display: inline-block;
+    background:url("../images/ico/dot.png") no-repeat;
+    background-size: contain;
+    margin-right: .1rem;
+}
+.oPriceBox{
+    height: 1.18rem;
+}
+.oPriceBox .oPBL{
+    height: 1.18rem;
+    float: left;
+    padding-left: .2rem;
+    width: 75%;
+}
+.oPriceBox .oPBL p{
+    font-size: .32rem;
+    color: #e73d4d;
+    height: .38rem;
+    line-height: .38rem;
+    margin: .1rem 0;
+}
+.oPriceBox .oPBL p i{
+    font-size: .24rem;
+}
+.oPriceBox .oPBL h3{
+    font-size: .32rem;
+    color: #333;
+    height: .4rem;
+    line-height: .4rem;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.oPriceBox .oPBR{
+    width: 1.18rem;
+    height: 1.18rem;
+    float: right;
+    line-height: 1.18rem;
+    text-align: center;
+}
+.oPriceBox .oPBR a{
+    display: block;
+    background-color: #e73d4d;
+    color: #fff;
+    font-size: .32rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*第三版index end*/

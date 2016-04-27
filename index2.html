@@ -17,21 +17,21 @@
     <script src="js/index.js" type="text/javascript"></script>
 </head>
 <body>
-<section class="logo">
-    <img src="images/logo2.png"/>
-</section>
 <!--banner-->
+<!--<div class="banner">
+    <img src="images/banner.png"/>
+</div>-->
 <div class="choose_tasks">
-    <div class="swiper-container wap2" style="cursor: -webkit-grab;">
+    <div class="swiper-container" style="cursor: -webkit-grab;">
         <ul class="swiper-wrapper">
             <li class="swiper-slide swiper-slide1">
-                <a href="#"><img src="images/mb1.jpg"></a>
+               <a href="#"><img src="images/banner.png"></a>
             </li>
             <li class="swiper-slide swiper-slide1">
-                <a href="#"><img src="images/mb1.jpg"></a>
+                <a href="#"><img src="images/banner.png"></a>
             </li>
             <li class="swiper-slide swiper-slide1 swiper-slide-visible swiper-slide-active">
-                <a href="#"><img src="images/mb1.jpg"></a>
+                <a href="#"><img src="images/banner.png"></a>
             </li>
         </ul>
         <div class="pagination"><span class="swiper-pagination-switch swiper-visible-switch swiper-active-switch"></span></div>
@@ -40,36 +40,66 @@
 <!--banner end-->
 <!--main-->
 <div class="main">
-    <ul class="oList">
+    <ul class="mainList">
         <li>
-            <div class="oImg">
-                <span></span><a href="#"><img src="images/pb1.jpg"/></a>
-            </div>
-            <div class="oInfo"><em></em>沉浸式观影体验，你值得拥有！</div>
-            <div class="oPriceBox">
-                <div class="oPBL">
-                    <p>79<i>元</i></p>
-                    <h3>暴风魔镜小D</h3>
-                </div>
-                <div class="oPBR">
-                    <a href="#">抢购</a>
-                </div>
-            </div>
+            <dl>
+                <dt><a href="商品详情页.html"><img src="images/pp.png"/></a></dt>
+                <dd>
+                    <h3>魔镜小D 蓝色</h3>
+                    <p>我的看片神器</p>
+                    <p class="price">79.00<i>&nbsp;元起</i></p>
+                </dd>
+            </dl>
         </li>
         <li>
-            <div class="oImg">
-                <span></span><a href="#"><img src="images/pb2.jpg"/></a>
-            </div>
-            <div class="oInfo"><em></em>全家人的新玩具让闲暇时光充满欢声笑语中。</div>
-            <div class="oPriceBox">
-                <div class="oPBL">
-                    <p>3288<i>元</i></p>
-                    <h3>暴风超体TV</h3>
-                </div>
-                <div class="oPBR">
-                    <a href="#">抢购</a>
-                </div>
-            </div>
+            <dl>
+                <dt><a href="#"><img src="images/pp2.png"/></a></dt>
+                <dd>
+                    <h3>魔镜小D 蓝色</h3>
+                    <p>我的看片神器</p>
+                    <p class="price">3998.00<i>&nbsp;元起</i></p>
+                </dd>
+            </dl>
+        </li>
+        <li>
+            <dl>
+                <dt><a href="商品详情页.html"><img src="images/pp.png"/></a></dt>
+                <dd>
+                    <h3>魔镜小D 蓝色</h3>
+                    <p>我的看片神器</p>
+                    <p class="price">79.00<i>&nbsp;元起</i></p>
+                </dd>
+            </dl>
+        </li>
+        <li>
+            <dl>
+                <dt><a href="#"><img src="images/pp2.png"/></a></dt>
+                <dd>
+                    <h3>魔镜小D 蓝色</h3>
+                    <p>我的看片神器</p>
+                    <p class="price">3998.00<i>&nbsp;元起</i></p>
+                </dd>
+            </dl>
+        </li>
+        <li>
+            <dl>
+                <dt><a href="商品详情页.html"><img src="images/pp.png"/></a></dt>
+                <dd>
+                    <h3>魔镜小D 蓝色</h3>
+                    <p>我的看片神器</p>
+                    <p class="price">79.00<i>&nbsp;元起</i></p>
+                </dd>
+            </dl>
+        </li>
+        <li>
+            <dl>
+                <dt><a href="#"><img src="images/pp2.png"/></a></dt>
+                <dd>
+                    <h3>魔镜小D 蓝色</h3>
+                    <p>我的看片神器</p>
+                    <p class="price">3998.00<i>&nbsp;元起</i></p>
+                </dd>
+            </dl>
         </li>
     </ul>
 </div>
@@ -112,7 +142,7 @@
             loop:true,
             grabCursor: true,
             paginationClickable: true,
-            autoplay:4000,
+            autoplay:3000,
             autoplayDisableOnInteraction:false,
             calculateHeight:true
         });
