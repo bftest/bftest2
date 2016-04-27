@@ -1815,13 +1815,6 @@ h3{
     border-bottom-right-radius: .1rem;
     border-bottom-left-radius: .2rem;
 }
-.wap2 .swiper-wrapper a{
-    display: block;
-    width: 96%;
-    overflow: hidden;
-    border-radius: .1rem;
-    border-bottom-right-radius: .2rem;
-}
 .wap2 .swiper-slide img{
     width: 100%;
     height: auto;
@@ -1878,6 +1871,13 @@ h3{
    .oInfo{
        bottom: 1.18rem;
    }
+    .wap2 .swiper-wrapper a{
+        display: block;
+        width: 96%;
+        overflow: hidden;
+        border-radius: .1rem;
+        border-bottom-right-radius: .2rem;
+    }
 }
 .oInfo em{
     width: .34rem;
