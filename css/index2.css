@@ -1801,12 +1801,14 @@ h3{
     overflow: hidden;
     margin: 0 auto;
     border-radius: .1rem;
+    margin-bottom: .2rem;
 }
 .choose_tasks .wap2{
-
+    margin: 0;
+    border-radius: .1rem;
 }
 .wap2 .swiper-wrapper{
-   
+
 }
 .wap2 .swiper-slide img{
     width: 100%;
@@ -1820,7 +1822,6 @@ h3{
     margin: 0 auto;
     height: 100%;
     overflow: hidden;
-    margin-bottom: .2rem;
 }
 .oList li{
     width: 100%;
