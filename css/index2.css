@@ -1875,9 +1875,9 @@ h3{
     .wap2 .swiper-wrapper a{
         display: block;
         width: 96%;
+        max-height: 1.6rem;
         overflow: hidden;
         border-radius: .1rem;
-        border-bottom-right-radius: .2rem;
     }
 }
 .oInfo em{
