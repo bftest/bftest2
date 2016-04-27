@@ -1814,9 +1814,15 @@ h3{
     width: 99.8%;
     height: auto;
     border-radius: .1rem;
+    max-height: 1.6rem;
+    overflow: hidden;
 }
 .wap2 .pagination{
     bottom: 5px;
+}
+.wap2 .swiper-wrapper .wiper-slide,.wap2 .swiper-wrapper{
+    max-height: 1.6rem;
+    overflow: hidden;
 }
 .main{
     width: 96%;
