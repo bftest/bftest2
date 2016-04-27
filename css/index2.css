@@ -1804,9 +1804,27 @@ h3{
 }
 .choose_tasks .wap2{
     border-radius: .1rem;
+    border-top-left-radius: .1rem;
+    border-top-right-radius: .2rem;
+    border-bottom-right-radius: .1rem;
+    border-bottom-left-radius: .2rem;
+}
+.wap2 .swiper-wrapper{
+    border-top-left-radius: .1rem;
+    border-top-right-radius: .2rem;
+    border-bottom-right-radius: .1rem;
+    border-bottom-left-radius: .2rem;
+}
+.wap2 .swiper-wrapper a{
+    display: block;
+    width: 96%;
+    overflow: hidden;
+    border-radius: .1rem;
+    border-bottom-right-radius: .2rem;
 }
 .wap2 .swiper-slide img{
     width: 100%;
+    height: auto;
 }
 .wap2 .pagination{
     bottom: 5px;
