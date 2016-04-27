@@ -1811,8 +1811,9 @@ h3{
 
 }
 .wap2 .swiper-slide img{
-    width: 100%;
+    width: 99.8%;
     height: auto;
+    border-radius: .1rem;
 }
 .wap2 .pagination{
     bottom: 5px;
